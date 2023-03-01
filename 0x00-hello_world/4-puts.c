@@ -2,7 +2,7 @@
 
 /**
  * main - prints pass string value using puts function,
- * Return: returns 0 if the compilation process sucessed, if not succesed return other nubmers
+ * Return: 0 if the compilation process sucessed, else returns other nubmers
  */
 
 int main(void)
