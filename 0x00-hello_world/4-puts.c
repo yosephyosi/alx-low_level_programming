@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints pass string value using puts function
- * return - returns 0 if the compilation process sucessed
+ * main - prints pass string value using puts function,
+ * Return: returns 0 if the compilation process sucessed, if not succesed return other nubmers
  */
 
 int main(void)
