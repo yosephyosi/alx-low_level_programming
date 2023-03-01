@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * print using puts function
+ * main - prints pass string value using puts function
+ * return - returns 0 if the compilation process sucessed
  */
 
 int main(void)
