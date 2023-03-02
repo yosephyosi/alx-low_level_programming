@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - print last digit with some string - %10 - toget last digit
+ * main - print last digit with wether its greater or less that the given number - %10 - toget last digit
  * Return: return 0 if the code successed else other number
  */
 
