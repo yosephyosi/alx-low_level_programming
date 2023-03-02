@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - prints the last digit of variable n with some string.
- * 	tells its greater or less that the given number
- *
+ * tells its greater or less that the given number
  * Return: return 0 if the code successed else other number
  */
 
