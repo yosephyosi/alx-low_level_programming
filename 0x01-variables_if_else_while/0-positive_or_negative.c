@@ -5,7 +5,7 @@
 /**
  * main - compare and print the generated number with 0
  * Return: 0 if the program successed else other number
- * /
+ */
 int main(void)
 {
 	int n;
