@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - print last digit with wether its greater or less that the given number
+ * main - prints the last digit of variable n with some string.
+ * 	  tells its greater or less that the given number 
+ * 	  
  * Return: return 0 if the code successed else other number
  */
 
