@@ -1,40 +1,32 @@
+
 #include <stdio.h>
 
 /**
- * main - print four digit separated by space
- * Return: 0 if the code successed
+ * main - prints all possible combinations of two two-digit numbers
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int a;
+	int i, j;
 
-	int b;
-
-	int c;
-
-	int d;
-
-	for (a = 48; a <= 57; a++)
+	for (i = 0; i < 100; i++)
 	{
-		for (b = 48; b <= 56; b++)
+		for (j = 0; j < 100; j++)
 		{
-			for (c = 48; c <= 57; c++)
+			if (i < j)
 			{
-				for (d = 48; d <= 57; d++)
+				putchar((i / 10) + 48);
+				putchar((i % 10) + 48);
+				putchar(' ');
+				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
+				if (i != 98 || j != 99)
 				{
-					putchar(a);
-					putchar(b);
+					putchar(',');
 					putchar(' ');
-					putchar(c);
-					putchar(d);
-					if (a != 57 || b != 56 || c != 57 || d != 57)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
 			}
+
 		}
 	}
 	putchar('\n');
