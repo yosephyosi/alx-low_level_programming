@@ -5,7 +5,7 @@
  * Return: 0 is the code successed
  */
 
-int main (void)
+int main(void)
 {
 	char alphabet;
 
