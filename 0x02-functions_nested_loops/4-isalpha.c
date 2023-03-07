@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print 1 if true
+ * _isalpha - print 1 if true
  * @c: recive alphabets
  * Return: 0
  */
