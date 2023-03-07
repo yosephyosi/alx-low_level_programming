@@ -2,15 +2,17 @@
 
 /**
  * _islower - return 1 if its lower
- * c - recives charachtersii
+ * @c - recives charachters
  * Return: 0
  */
 
 int _islower(int c)
 {
-	if (c >= 'a'  && c <= 'b')
+	if (c >= 97  && c <= 122)
 	{
 		return (1);
+	} else
+	{
+		return (0);
 	}
-	return (0);
 }
