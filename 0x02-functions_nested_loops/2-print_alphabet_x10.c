@@ -9,13 +9,13 @@ void print_alphabet_x10(void)
         int ch = 97;
 	int counter = 1;	
 
-	while (counter <= 10)
-	{
-        	while (ch <= 122)
-        	{
-                	_putchar(ch);
-                	ch++;
-        	}
+       	while (ch <= 122)
+       	{
+		while (counter <= 10)
+		{
+               		_putchar(ch);
+               		ch++;
+		}
         	_putchar('\n');
 		counter++;
 	}
