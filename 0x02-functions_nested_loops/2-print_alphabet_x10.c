@@ -6,12 +6,12 @@
 
 void print_alphabet_x10(void)
 {
-        char ch = 'a';
+        int ch = 97;
 	int counter = 1;	
 
 	while (counter <= 10)
 	{
-        	while (ch <= 'z')
+        	while (ch <= 122)
         	{
                 	_putchar(ch);
                 	ch++;
