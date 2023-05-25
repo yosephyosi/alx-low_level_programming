@@ -15,13 +15,13 @@ int main(void)
 	while (digit <= '9')
 	{
 		putchar(digit);
-		++digit;
+		digit++;
 	}
 
 	while (letter <= 'f')
 	{
 		putchar(letter);
-		letter++
+		letter++;
 	}
 	putchar('\n');
 	return (0);
