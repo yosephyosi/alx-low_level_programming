@@ -25,7 +25,7 @@ int main(void)
 			b++;
 		}
 		a++;
-		b = a +1;
+		b = a + 1;
 	}
 	putchar('\n');
 	return (0);
