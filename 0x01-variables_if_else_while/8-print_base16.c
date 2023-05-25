@@ -21,7 +21,8 @@ int main(void)
 	while (letter <= 'f')
 	{
 		putchar(letter);
-		putchar('\n');
+		letter++
 	}
+	putchar('\n');
 	return (0);
 }
