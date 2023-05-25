@@ -2,6 +2,7 @@
 
 /**
  * print_sign - Entry point 
+ *
  * @n: input number
  * Return: 0 or 1 or -1
 */
