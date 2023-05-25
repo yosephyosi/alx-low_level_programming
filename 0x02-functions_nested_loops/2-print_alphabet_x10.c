@@ -14,10 +14,10 @@ void print_alphabet_x10(void)
 		while (counter <= 10)
 		{
                		_putchar(ch);
-               		ch++;
+               		counter++;
 		}
         	_putchar('\n');
-		counter++;
+		ch++;
 	}
 }
         
