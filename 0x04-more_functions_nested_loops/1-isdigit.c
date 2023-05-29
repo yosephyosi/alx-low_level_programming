@@ -1,6 +1,6 @@
 #include "main.h"
 
-/***
+/**
  * _isdigit - Entry point
  * @c: char checker
  * Return: 0 or 1
