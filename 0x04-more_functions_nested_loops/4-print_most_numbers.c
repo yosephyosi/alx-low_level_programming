@@ -15,7 +15,6 @@ void print_most_numbers(void)
 		{
                 	_putchar(num);
 		}
-
 		if (num == 57)
 		{
 			tester = 0;
