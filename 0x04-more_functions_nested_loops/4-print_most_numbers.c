@@ -1,27 +1,26 @@
 #include "main.h"
 
 /**
- * print_numbers - Entry point
+ * print_most_numbers - Entry point
  */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
-        int num = 48;
-        int tester = 1;
+	int num = 48;
+	int tester = 1;
 
-        while (tester)
-        {
+	while (tester)
+	{
 		if (num != 50 && num != 52)
 		{
                 	_putchar(num);
 		}
 
-                if (num == 57)
-                {
-                        tester = 0;
-                }
-                num++;
-        }
-        _putchar('\n');
+		if (num == 57)
+		{
+			tester = 0;
+		}
+		num++;
+	}
+	_putchar('\n');
 }
-
