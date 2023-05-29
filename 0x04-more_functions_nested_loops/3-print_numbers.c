@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * 
- *
+ * print_numbers - Entry point
  */
 
 void print_numbers(void)
