@@ -14,6 +14,8 @@ void print_numbers(void)
 		_putchar(num);
 		_putchar('/n');
 		if (num == 10)
-			break;
+		{
+			tester = false;
+		}
 	}
 }
