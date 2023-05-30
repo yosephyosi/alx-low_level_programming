@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - entry point
  *Return: always 0
@@ -24,9 +23,10 @@ int main(void)
 		{
 			printf("%d", num);
 		}
-		num++;
-		if (num != 101)
+
+		if (num != 100)
 			printf(" ");
+		num++;
 	}
 	return (0);
 }
