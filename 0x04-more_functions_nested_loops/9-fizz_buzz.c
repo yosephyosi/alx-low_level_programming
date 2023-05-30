@@ -23,10 +23,10 @@ int main(void)
 		{
 			printf("%d", num);
 		}
-
 		if (num != 100)
 			printf(" ");
 		num++;
 	}
+	printf("\n");
 	return (0);
 }
