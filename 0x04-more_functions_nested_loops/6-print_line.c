@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * print_line - entry point
+ * @n: input for num
 */
 
 void print_line(int n)
