@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
-*/
+ * print_square - entry point
+ * @size: size input
+ */
 
 void print_square(int size)
 {
