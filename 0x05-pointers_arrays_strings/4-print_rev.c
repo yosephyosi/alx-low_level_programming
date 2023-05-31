@@ -13,8 +13,8 @@ void print_rev(char *s)
 	{
 		counter++;
 	}
-
-	while (s[length] != '\0')
+	length = counter - 1;
+	while (s[length] >= 0)
 	{
 		length = counter - 1;
 		_putchar(s[length]);
