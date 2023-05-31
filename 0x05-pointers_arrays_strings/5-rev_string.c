@@ -1,23 +1,28 @@
 #include "main.h"
+
 /**
- *print_rev - entry point
- *@s: string input
-*/
-
-void print_rev(char *s)
+ * rev_string - reverses a string
+ * @s: string to be reversed
+ */
+void rev_string(char *s)
 {
-	int length;
-	int counter = 0;
+	char tmp;
+	int i, len, len1;
 
-	while (s[counter] != '\0')
+	len = 0;
+	len1 = 0;
+
+	while (s[len] != '\0')
 	{
-		counter++;
+		len++;
 	}
-	length = counter - 1;
-	while (length >= 0)
+
+	len1 = len - 1;
+
+	for (i = 0; i < len / 2; i++)
 	{
-		_putchar(s[length]);
-		length--;
+		tmp = s[i];
+		s[i] = s[len1];
+		s[len1--] = tmp;
 	}
-	_putchar('\n');
 }
