@@ -45,7 +45,7 @@ int _strcmp(char *s1, char *s2)
 		{
 			value = s1[index] - s2[index];
 			return (value);
-		}else if (s1[index] < s2[index])
+		} else if (s1[index] < s2[index])
 		{
 			int value = s1[index] - s2[index];
 			return (value);
