@@ -5,30 +5,22 @@
  * @s2: second string
  * Return: +ve , -ve or 0
 */
-
 int _strcmp(char *s1, char *s2)
 {
-	int inde = 0;
-	int tempIndex1 = 0;
-	int tempIndex2 = 0;
-	int s1Len = 0;
-	int s2Len = 0;
-	int a = 0;
+	int inde = 0, tempIndex1 = 0, tempIndex2 = 0;
+	int a = 0, s1Len = 0, s2Len = 0, value = 0;
 	char *b = "";
-	int value = 0;
 
 	while (s1[tempIndex1] != '\0')
 	{
 		s1Len++;
 		tempIndex1++;
 	}
-
 	while (s2[tempIndex2] != '\0')
 	{
 		s2Len++;
 		tempIndex2++;
 	}
-
 	if (s1Len > s2Len)
 	{
 		a = s1Len;
@@ -38,18 +30,15 @@ int _strcmp(char *s1, char *s2)
 		a = s2Len;
 		b = s2;
 	}
-
 	while (b[inde] != '\0' && inde <= (a - 1))
 	{
 		if (s1[inde] > s2[inde])
 		{
 			value = s1[inde] - s2[inde];
-
 			return (value);
 		} else if (s1[inde] < s2[inde])
 		{
 			value = s1[inde] - s2[inde];
-
 			return (value);
 		}
 		inde++;
