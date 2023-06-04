@@ -9,11 +9,21 @@
 int _strcmp(char *s1, char *s2)
 {
 	int index  = 0;
-	int s1Len = strlen(s1);
-	int s2Len = strlen(s2);
+	int s1Len = 0;
+	int s2Len = 0;
 	int a = 0;
 	char *b = "";
 	int value = 0;
+
+	while (s1 != '\0')
+	{
+		s1Len++;
+	}
+
+	while (s1 != '\0')
+        {
+                s2Len++;
+        }
 
 	if (s1Len > s2Len)
 	{
