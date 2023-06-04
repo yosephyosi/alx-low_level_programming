@@ -23,4 +23,4 @@ char *_strncpy(char *dest, char *src, int n)
 		a++;
 	}
 	return (dest);
-}		
+}
