@@ -24,10 +24,10 @@ int _strcmp(char *s1, char *s2)
 	}
 
 	while (s2[tempIndex2] != '\0')
-        {
-                s2Len++;
+	{
+		s2Len++;
 		tempIndex2++;
-        }
+	}
 
 	if (s1Len > s2Len)
 	{
