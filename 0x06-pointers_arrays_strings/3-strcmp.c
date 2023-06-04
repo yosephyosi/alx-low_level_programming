@@ -33,7 +33,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		a = s1Len;
 		b = s1;
-	}else
+	} else
 	{
 		a = s2Len;
 		b = s2;
