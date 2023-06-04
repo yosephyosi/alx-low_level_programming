@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcmp - comaprision
+ * _strcmp - comaprision of two strings
  * @s1: first string
  * @s2: second string
  * Return: +ve , -ve or 0
