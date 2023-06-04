@@ -8,7 +8,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int index  = 0;
+	int index = 0;
 	int tempIndex1 = 0;
 	int tempIndex2 = 0;
 	int s1Len = 0;
