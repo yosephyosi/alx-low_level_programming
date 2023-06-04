@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strcmp - compare and return + , - or 0
+ * _strcmp - comaprision
  * @s1: first string
  * @s2: second string
- * Return: cmparision value
+ * Return: +ve , -ve or 0
 */
 
 int _strcmp(char *s1, char *s2)
