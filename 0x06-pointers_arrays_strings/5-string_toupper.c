@@ -6,8 +6,7 @@
 */
 
 char *string_toupper(char *s)
-{
-	int sizeOfC = 0;	
+{	
 	int counter = 0;
 
 	while (s[counter] != '\0')
