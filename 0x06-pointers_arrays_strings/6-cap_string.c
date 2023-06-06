@@ -13,7 +13,7 @@ char *cap_string(char *s)
 
 	while (s[a] != '\0')
 	{
-		while (s[a] == list[b])
+		while (s[a] == lists[b])
 		{
 			s[a] = s[a] - 32;
 			b++;
