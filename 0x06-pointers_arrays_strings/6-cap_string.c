@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *
- *
- *
+ * cap_string - Capitalize chars
+ * @s: input for chars
+ * Return: Capitalized string
 */
 
 char *cap_string(char *s)
@@ -13,12 +13,17 @@ char *cap_string(char *s)
 
 	while (s[a] != '\0')
 	{
-		while (s[a] == lists[b])
+		while (b < 13)
 		{
-			s[a] = s[a] - 32;
-			b++;
+			if (s[a] == lists[b])
+			{
+				if (s[a + 1] >= 'a' && s[a + 1] <= 'z')
+					s[a + 1] = s[a + 1] - 32;
+			}
+		b++;
 		}
-		a++;
+	a++;
+	b = 0;
 	}
 	return (s);
 }
