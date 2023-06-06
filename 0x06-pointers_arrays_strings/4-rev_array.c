@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * reverse_arry - reverse array of int
+ * reverse_array - reverse array of int
  * @a: list of numbers to be reversed
  * @n: size of list/arrys (length)
 */
 
-void reverse_arry(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int counter = 0;
 	int bigNum = n - 1;
