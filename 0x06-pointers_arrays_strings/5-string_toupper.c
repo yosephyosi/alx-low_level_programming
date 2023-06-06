@@ -5,18 +5,18 @@
  * Return: uppercase chars
 */
 
-char *string_toupper(char *c)
+char *string_toupper(char *s)
 {
 	int sizeOfC = 0;	
 	int counter = 0;
 
-	while (c[counter] != '\0')
+	while (s[counter] != '\0')
 	{
-		if (c[counter] <= 'z' && c[counter] >= 'a')
+		if (s[counter] <= 'z' && s[counter] >= 'a')
 		{
-			c[counter] = c[counter] - 32;
+			s[counter] = s[counter] - 32;
 		}
 		counter++;
 	}
-	return (c);
+	return (s);
 }
