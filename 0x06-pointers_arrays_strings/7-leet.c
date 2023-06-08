@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * leet - string to leet 
+ * leet - string to leet
  * @s: input for string
  * Return: leet string
 */
@@ -9,7 +9,7 @@ char *leet(char *s)
 {
 	int a = 0;
 	int b = 0;
-	
+
 	char *s1 = "aAeEoOtTlL";
 	char *s2 = "4433007711";
 
